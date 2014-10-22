@@ -16,23 +16,26 @@ public class PlayerController : MonoBehaviour {
 	public float primaryChangeTime = 0;
 	public float secondaryChangeTime = 0;
 
-	public float doubleTapTime = 0.1f;
+	public float doubleTapTime = 0.2f;
+	
+	public int airJumps = 1;
 
-	public float runSpeed = 8f;
+	public float runSpeed = 14f;
 	public float runExplosion = 2f;
-	public float runAcceleration = 4f;
-	public float jumpTime = 0.8f;
+	public float runAcceleration = 100f;
+	public float jumpTime = 0.5f;
 	public float jumpAcceleration = 2f;
-	public float jumpExplosion = 8.5f;
+	public float jumpSpeed = 2f;
+	public float jumpExplosion = 10f;
 	public float airSpeed = 10f;
 	public float airAcceleration = 30f;
 	public float velocityDampening = 0.6f;
 	public float airDampening = 0.95f;
 	public float fallExplosion = 3f;
-	public float turnExplosion = 6f;
+	public float turnExplosion = 10f;
 
-	public float gravity = 10f;
-	private float hiddenGravity = 0f;
+	public float gravity = 25f;
+	private float hiddenGravity = 25f;
 
 	public Vector3 velocity;
 
@@ -76,6 +79,7 @@ public class PlayerController : MonoBehaviour {
 			if (!turning) {
 				if (leftDown) {
 					turning = true;
+					velocity.y = 0;
 					turnTime = Time.time;
 					direction = directionState.left;
 					if (primary == primaryState.ground) {
@@ -89,7 +93,6 @@ public class PlayerController : MonoBehaviour {
 					jump ();
 				} else if (rightUp) {
 					direction = directionState.left;
-					turning = false;
 					if (primary == primaryState.ground) {
 						if (velocity.x > -runExplosion) {
 							velocity.x = -runExplosion;
@@ -106,6 +109,7 @@ public class PlayerController : MonoBehaviour {
 			if (!turning) {
 				if (rightDown) {
 					turning = true;
+					velocity.y = 0;
 					turnTime = Time.time;
 					direction = directionState.right;
 					if (primary == primaryState.ground) {
@@ -115,13 +119,15 @@ public class PlayerController : MonoBehaviour {
 					direction = directionState.none;
 				}
 			} else if (turning) {
-				if (leftUp) {
+				if (rightDown) {
+					jump ();
+				} else if (leftUp) {
 					direction = directionState.right;
 					if (primary == primaryState.ground) {
-						velocity.x = turnExplosion;
+						if (velocity.x < runExplosion) {
+							velocity.x = runExplosion;
+						}
 					}
-				} else if (rightDown) {
-					jump ();
 				}
 			}
 			if (rightUp && primary == primaryState.jumpLeft) {
@@ -195,6 +201,9 @@ public class PlayerController : MonoBehaviour {
 			velocity.x = 0;
 		}
 		transform.position += velocity * Time.deltaTime;
+		if ( primary == primaryState.jumpLeft || primary == primaryState.jumpRight) {
+			transform.position += Vector3.up * jumpSpeed * Time.deltaTime;	
+		}
 	}
 
 	private void jump() {
