@@ -18,7 +18,8 @@ public class PlayerController : MonoBehaviour {
 
 	public float doubleTapTime = 0.2f;
 	
-	public int airJumps = 1;
+	public int airJumpsMax = 1;
+	private int airJumps = 0;
 
 	public float runSpeed = 14f;
 	public float runExplosion = 2f;
@@ -47,8 +48,8 @@ public class PlayerController : MonoBehaviour {
 			primary = primaryState.ground;
 			primaryChangeTime = Time.time;
 			transform.position -= Vector3.up * transform.position.y;
+			airJumps = 0;
 		}
-
 
 		// process controls
 		bool leftHold = Input.GetButton ("leftTouch");
@@ -57,8 +58,8 @@ public class PlayerController : MonoBehaviour {
 		bool rightDown = Input.GetButtonDown ("rightTouch");
 		bool leftUp = Input.GetButtonUp ("leftTouch");
 		bool rightUp = Input.GetButtonUp ("rightTouch");
-
-		if (! leftHold && !rightHold) {
+		
+		if (!leftHold && !rightHold) {
 			direction = directionState.none;
 			turning = false;
 		}
@@ -77,20 +78,25 @@ public class PlayerController : MonoBehaviour {
 			}
 		} else if (mRight()) {
 			if (!turning) {
-				if (leftDown) {
+				if (leftDown && (airJumps < airJumpsMax)) {
 					turning = true;
 					velocity.y = 0;
 					turnTime = Time.time;
 					direction = directionState.left;
-					if (primary == primaryState.ground) {
-						velocity.x = -turnExplosion;
-					}
+					velocity.x = -turnExplosion;
+					//if (primary == primaryState.ground) {
+					//}
 				} else if (rightUp) {
 					direction = directionState.none;
 				}
 			} else if (turning) {
 				if (leftDown) {
-					jump ();
+					if (primary == primaryState.ground) {
+						jump ();
+					} else if (airJumps < airJumpsMax) {
+						airJumps += 1;
+						jump ();
+					}
 				} else if (rightUp) {
 					direction = directionState.left;
 					if (primary == primaryState.ground) {
@@ -107,20 +113,25 @@ public class PlayerController : MonoBehaviour {
 			}
 		} else if (mLeft()) {
 			if (!turning) {
-				if (rightDown) {
+				if (rightDown && (airJumps < airJumpsMax)) {
 					turning = true;
 					velocity.y = 0;
 					turnTime = Time.time;
 					direction = directionState.right;
-					if (primary == primaryState.ground) {
-						velocity.x = turnExplosion;
-					}
+					velocity.x = turnExplosion;
+					//if (primary == primaryState.ground) {
+					//}
 				} else if (leftUp) {
 					direction = directionState.none;
 				}
 			} else if (turning) {
 				if (rightDown) {
-					jump ();
+					if (primary == primaryState.ground) {
+						jump ();
+					} else if (airJumps < airJumpsMax) {
+						airJumps += 1;
+						jump ();
+					}
 				} else if (leftUp) {
 					direction = directionState.right;
 					if (primary == primaryState.ground) {
@@ -176,7 +187,9 @@ public class PlayerController : MonoBehaviour {
 			velocity.y -= hiddenGravity * Time.deltaTime;
 			if (primary == primaryState.jumpRight) {
 				velocity.y += jumpAcceleration * Time.deltaTime;
-				if (direction == directionState.right && velocity.x < runSpeed) {
+				if (airJumps == 0 && direction == directionState.right && velocity.x < runSpeed) {
+					velocity.x += airAcceleration * Time.deltaTime;
+				} else if (direction == directionState.right && velocity.x < airSpeed) {
 					velocity.x += airAcceleration * Time.deltaTime;
 				} else if (direction == directionState.left && velocity.x > -airSpeed) {
 					velocity.x -= airAcceleration * Time.deltaTime;
@@ -185,7 +198,9 @@ public class PlayerController : MonoBehaviour {
 				velocity.y += jumpAcceleration * Time.deltaTime;
 				if (direction == directionState.right && velocity.x < airSpeed) {
 					velocity.x += airAcceleration * Time.deltaTime;
-				} else if (direction == directionState.left && velocity.x > -runSpeed) {
+				} else if (airJumps == 0 && direction == directionState.left && velocity.x > -runSpeed) {
+					velocity.x -= airAcceleration * Time.deltaTime;
+				} else if (direction == directionState.left && velocity.x > -airSpeed) {
 					velocity.x -= airAcceleration * Time.deltaTime;
 				}
 			} else {
@@ -209,11 +224,20 @@ public class PlayerController : MonoBehaviour {
 	private void jump() {
 		turning = false;
 		if (direction == directionState.left) {
+			if (primary == primaryState.ground) {
+				velocity.x = -runSpeed;
+			} else {
+				velocity.x = -airSpeed;
+			}
 			primary = primaryState.jumpLeft;
-			velocity.x = -runSpeed;
+			
 		} else {
+			if (primary == primaryState.ground) {
+				velocity.x = runSpeed;
+			} else {
+				velocity.x = airSpeed;
+			}
 			primary = primaryState.jumpRight;
-			velocity.x = runSpeed;
 		}
 		primaryChangeTime = Time.time;
 		velocity.y = jumpExplosion;
