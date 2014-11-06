@@ -3,20 +3,25 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour {
 
-	public enum primaryState {ground, jumpLeft, jumpRight, fall, dive};
-	public enum secondaryState {none, melee, rangecharge, rangefire};
+	public enum primaryState {ground, jumpLeft, jumpRight, fall, dive, land};
+	public enum secondaryState {none, turn, land};
 	public enum directionState {none, left, right};
+	public enum attackState {none, melee, rangecharge, rangefire};
 	public primaryState primary = primaryState.ground;
 	public secondaryState secondary = secondaryState.none;
 	public directionState direction = directionState.none;
 
 	public bool turning = false;
-	public float turnTime = 0;
+	public float turnChangeTime = 0;
 
 	public float primaryChangeTime = 0;
 	public float secondaryChangeTime = 0;
 
-	public float doubleTapTime = 0.2f;
+	public float turnBuffer = 0.2f;
+	
+	
+	public float diveExplosion = 25f;
+	public float landBuffer = 0.15f;
 	
 	public int airJumpsMax = 1;
 	private int airJumps = 0;
@@ -59,6 +64,8 @@ public class PlayerController : MonoBehaviour {
 		bool leftUp = Input.GetButtonUp ("leftTouch");
 		bool rightUp = Input.GetButtonUp ("rightTouch");
 		
+		bool dive = Input.GetButtonDown("leftDrop") || Input.GetButtonDown("rightDrop");
+		
 		if (!leftHold && !rightHold) {
 			direction = directionState.none;
 			turning = false;
@@ -81,11 +88,13 @@ public class PlayerController : MonoBehaviour {
 				if (leftDown && (airJumps < airJumpsMax)) {
 					turning = true;
 					velocity.y = 0;
-					turnTime = Time.time;
+					turnChangeTime = Time.time;
 					direction = directionState.left;
 					velocity.x = -turnExplosion;
 					//if (primary == primaryState.ground) {
 					//}
+				} else if (rightUp && leftHold) {
+					direction = directionState.left;
 				} else if (rightUp) {
 					direction = directionState.none;
 				}
@@ -116,11 +125,13 @@ public class PlayerController : MonoBehaviour {
 				if (rightDown && (airJumps < airJumpsMax)) {
 					turning = true;
 					velocity.y = 0;
-					turnTime = Time.time;
+					turnChangeTime = Time.time;
 					direction = directionState.right;
 					velocity.x = turnExplosion;
 					//if (primary == primaryState.ground) {
 					//}
+				} else if (leftUp && rightHold) {
+					direction = directionState.right;
 				} else if (leftUp) {
 					direction = directionState.none;
 				}
@@ -147,6 +158,11 @@ public class PlayerController : MonoBehaviour {
 				// velocity.y = -fallExplosive;
 			}
 		}
+		
+		if (dive) {
+			primary = primaryState.dive;
+			velocity.y = -diveExplosion;
+		}
 
 		// change of state due to actions finishing
 		if ((primary == primaryState.jumpLeft || primary == primaryState.jumpRight)
@@ -156,7 +172,7 @@ public class PlayerController : MonoBehaviour {
 			// velocity.y = -fallExplosive;
 		}
 		
-		if (turning && turnTime + doubleTapTime < Time.time) {
+		if (turning && turnChangeTime + turnBuffer < Time.time) {
 			turning = false;
 			/*
 			if (mLeft () && rightHold) {
