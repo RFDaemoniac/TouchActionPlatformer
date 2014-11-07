@@ -63,6 +63,35 @@ public class PlayerController : MonoBehaviour {
 		bool rightDown = Input.GetButtonDown ("rightTouch");
 		bool leftUp = Input.GetButtonUp ("leftTouch");
 		bool rightUp = Input.GetButtonUp ("rightTouch");
+
+		// android controls
+		#if UNITY_ANDROID
+		if (Input.touchCount > 0) {
+			foreach (Touch t in Input.touches) {
+				if (t.phase == TouchPhase.Began) {
+					if (t.position.x < Screen.width/2) {
+						leftDown = true;
+						leftHold = true;
+					} else {
+						rightDown = true;
+						rightHold = true;
+					}
+				} else if (t.phase == TouchPhase.Ended) {
+					if (t.position.x < Screen.width/2) {
+						leftUp = true;
+					} else {
+						rightUp = true;
+					}
+				} else {
+					if (t.position.x < Screen.width/2) {
+						leftHold = true;
+					} else {
+						rightHold = true;
+					}
+				}
+			}
+		}
+		#endif
 		
 		bool dive = Input.GetButtonDown("leftDrop") || Input.GetButtonDown("rightDrop");
 		
