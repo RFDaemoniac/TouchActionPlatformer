@@ -1,0 +1,5723 @@
+fileFormatVersion: 2
+guid: a4d363017429ec246acd9edce3555dbd
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sonic_sprites_0
+    21300002: sonic_sprites_1
+    21300004: sonic_sprites_2
+    21300006: sonic_sprites_3
+    21300008: sonic_sprites_4
+    21300010: sonic_sprites_5
+    21300012: sonic_sprites_6
+    21300014: sonic_sprites_7
+    21300016: sonic_sprites_8
+    21300018: sonic_sprites_9
+    21300020: sonic_sprites_10
+    21300022: sonic_sprites_11
+    21300024: sonic_sprites_12
+    21300026: sonic_sprites_13
+    21300028: sonic_sprites_14
+    21300030: sonic_sprites_15
+    21300032: sonic_sprites_16
+    21300034: sonic_sprites_17
+    21300036: sonic_sprites_18
+    21300038: sonic_sprites_19
+    21300040: sonic_sprites_20
+    21300042: sonic_sprites_21
+    21300044: sonic_sprites_22
+    21300046: sonic_sprites_23
+    21300048: sonic_sprites_24
+    21300050: sonic_sprites_25
+    21300052: sonic_sprites_26
+    21300054: sonic_sprites_27
+    21300056: sonic_sprites_28
+    21300058: sonic_sprites_29
+    21300060: sonic_sprites_30
+    21300062: sonic_sprites_31
+    21300064: sonic_sprites_32
+    21300066: sonic_sprites_33
+    21300068: sonic_sprites_34
+    21300070: sonic_sprites_35
+    21300072: sonic_sprites_36
+    21300074: sonic_sprites_37
+    21300076: sonic_sprites_38
+    21300078: sonic_sprites_39
+    21300080: sonic_sprites_40
+    21300082: sonic_sprites_41
+    21300084: sonic_sprites_42
+    21300086: sonic_sprites_43
+    21300088: sonic_sprites_44
+    21300090: sonic_sprites_45
+    21300092: sonic_sprites_46
+    21300094: sonic_sprites_47
+    21300096: sonic_sprites_48
+    21300098: sonic_sprites_49
+    21300100: sonic_sprites_50
+    21300102: sonic_sprites_51
+    21300104: sonic_sprites_52
+    21300106: sonic_sprites_53
+    21300108: sonic_sprites_54
+    21300110: sonic_sprites_55
+    21300112: sonic_sprites_56
+    21300114: sonic_sprites_57
+    21300116: sonic_sprites_58
+    21300118: sonic_sprites_59
+    21300120: sonic_sprites_60
+    21300122: sonic_sprites_61
+    21300124: sonic_sprites_62
+    21300126: sonic_sprites_63
+    21300128: sonic_sprites_64
+    21300130: sonic_sprites_65
+    21300132: sonic_sprites_66
+    21300134: sonic_sprites_67
+    21300136: sonic_sprites_68
+    21300138: sonic_sprites_69
+    21300140: sonic_sprites_70
+    21300142: sonic_sprites_71
+    21300144: sonic_sprites_72
+    21300146: sonic_sprites_73
+    21300148: sonic_sprites_74
+    21300150: sonic_sprites_75
+    21300152: sonic_sprites_76
+    21300154: sonic_sprites_77
+    21300156: sonic_sprites_78
+    21300158: sonic_sprites_79
+    21300160: sonic_sprites_80
+    21300162: sonic_sprites_81
+    21300164: sonic_sprites_82
+    21300166: sonic_sprites_83
+    21300168: sonic_sprites_84
+    21300170: sonic_sprites_85
+    21300172: sonic_sprites_86
+    21300174: sonic_sprites_87
+    21300176: sonic_sprites_88
+    21300178: sonic_sprites_89
+    21300180: sonic_sprites_90
+    21300182: sonic_sprites_91
+    21300184: sonic_sprites_92
+    21300186: sonic_sprites_93
+    21300188: sonic_sprites_94
+    21300190: sonic_sprites_95
+    21300192: sonic_sprites_96
+    21300194: sonic_sprites_97
+    21300196: sonic_sprites_98
+    21300198: sonic_sprites_99
+    21300200: sonic_sprites_100
+    21300202: sonic_sprites_101
+    21300204: sonic_sprites_102
+    21300206: sonic_sprites_103
+    21300208: sonic_sprites_104
+    21300210: sonic_sprites_105
+    21300212: sonic_sprites_106
+    21300214: sonic_sprites_107
+    21300216: sonic_sprites_108
+    21300218: sonic_sprites_109
+    21300220: sonic_sprites_110
+    21300222: sonic_sprites_111
+    21300224: sonic_sprites_112
+    21300226: sonic_sprites_113
+    21300228: sonic_sprites_114
+    21300230: sonic_sprites_115
+    21300232: sonic_sprites_116
+    21300234: sonic_sprites_117
+    21300236: sonic_sprites_118
+    21300238: sonic_sprites_119
+    21300240: sonic_sprites_120
+    21300242: sonic_sprites_121
+    21300244: sonic_sprites_122
+    21300246: sonic_sprites_123
+    21300248: sonic_sprites_124
+    21300250: sonic_sprites_125
+    21300252: sonic_sprites_126
+    21300254: sonic_sprites_127
+    21300256: sonic_sprites_128
+    21300258: sonic_sprites_129
+    21300260: sonic_sprites_130
+    21300262: sonic_sprites_131
+    21300264: sonic_sprites_132
+    21300266: sonic_sprites_133
+    21300268: sonic_sprites_134
+    21300270: sonic_sprites_135
+    21300272: sonic_sprites_136
+    21300274: sonic_sprites_137
+    21300276: sonic_sprites_138
+    21300278: sonic_sprites_139
+    21300280: sonic_sprites_140
+    21300282: sonic_sprites_141
+    21300284: sonic_sprites_142
+    21300286: sonic_sprites_143
+    21300288: sonic_sprites_144
+    21300290: sonic_sprites_145
+    21300292: sonic_sprites_146
+    21300294: sonic_sprites_147
+    21300296: sonic_sprites_148
+    21300298: sonic_sprites_149
+    21300300: sonic_sprites_150
+    21300302: sonic_sprites_151
+    21300304: sonic_sprites_152
+    21300306: sonic_sprites_153
+    21300308: sonic_sprites_154
+    21300310: sonic_sprites_155
+    21300312: sonic_sprites_156
+    21300314: sonic_sprites_157
+    21300316: sonic_sprites_158
+    21300318: sonic_sprites_159
+    21300320: sonic_sprites_160
+    21300322: sonic_sprites_161
+    21300324: sonic_sprites_162
+    21300326: sonic_sprites_163
+    21300328: sonic_sprites_164
+    21300330: sonic_sprites_165
+    21300332: sonic_sprites_166
+    21300334: sonic_sprites_167
+    21300336: sonic_sprites_168
+    21300338: sonic_sprites_169
+    21300340: sonic_sprites_170
+    21300342: sonic_sprites_171
+    21300344: sonic_sprites_172
+    21300346: sonic_sprites_173
+    21300348: sonic_sprites_174
+    21300350: sonic_sprites_175
+    21300352: sonic_sprites_176
+    21300354: sonic_sprites_177
+    21300356: sonic_sprites_178
+    21300358: sonic_sprites_179
+    21300360: sonic_sprites_180
+    21300362: sonic_sprites_181
+    21300364: sonic_sprites_182
+    21300366: sonic_sprites_183
+    21300368: sonic_sprites_184
+    21300370: sonic_sprites_185
+    21300372: sonic_sprites_186
+    21300374: sonic_sprites_187
+    21300376: sonic_sprites_188
+    21300378: sonic_sprites_189
+    21300380: sonic_sprites_192
+    21300382: sonic_sprites_193
+    21300384: sonic_sprites_194
+    21300386: sonic_sprites_195
+    21300388: sonic_sprites_196
+    21300390: sonic_sprites_197
+    21300392: sonic_sprites_198
+    21300394: sonic_sprites_199
+    21300396: sonic_sprites_200
+    21300398: sonic_sprites_201
+    21300400: sonic_sprites_202
+    21300402: sonic_sprites_203
+    21300404: sonic_sprites_204
+    21300406: sonic_sprites_205
+    21300408: sonic_sprites_206
+    21300410: sonic_sprites_207
+    21300412: sonic_sprites_208
+    21300414: sonic_sprites_209
+    21300416: sonic_sprites_210
+    21300418: sonic_sprites_211
+    21300420: sonic_sprites_212
+    21300422: sonic_sprites_213
+    21300424: sonic_sprites_214
+    21300426: sonic_sprites_215
+    21300428: sonic_sprites_216
+    21300430: sonic_sprites_217
+    21300432: sonic_sprites_218
+    21300434: sonic_sprites_219
+    21300436: sonic_sprites_220
+    21300438: sonic_sprites_221
+    21300440: sonic_sprites_222
+    21300442: sonic_sprites_223
+    21300444: sonic_sprites_224
+    21300446: sonic_sprites_225
+    21300448: sonic_sprites_226
+    21300450: sonic_sprites_227
+    21300452: sonic_sprites_228
+    21300454: sonic_sprites_229
+    21300456: sonic_sprites_230
+    21300458: sonic_sprites_231
+    21300460: sonic_sprites_232
+    21300462: sonic_sprites_233
+    21300464: sonic_sprites_234
+    21300466: sonic_sprites_235
+    21300468: sonic_sprites_236
+    21300470: sonic_sprites_237
+    21300472: sonic_sprites_238
+    21300474: sonic_sprites_239
+    21300476: sonic_sprites_240
+    21300478: sonic_sprites_241
+    21300480: sonic_sprites_242
+    21300482: sonic_sprites_243
+    21300484: sonic_sprites_244
+    21300486: sonic_sprites_245
+    21300488: sonic_sprites_246
+    21300490: sonic_sprites_247
+    21300492: sonic_sprites_248
+    21300494: sonic_sprites_249
+    21300496: sonic_sprites_250
+    21300498: sonic_sprites_251
+    21300500: sonic_sprites_252
+    21300502: sonic_sprites_253
+    21300504: sonic_sprites_254
+    21300506: sonic_sprites_255
+    21300508: sonic_sprites_257
+    21300510: sonic_sprites_258
+    21300512: sonic_sprites_259
+    21300514: sonic_sprites_260
+    21300516: sonic_sprites_261
+    21300518: sonic_sprites_262
+    21300520: sonic_sprites_263
+    21300522: sonic_sprites_264
+    21300524: sonic_sprites_265
+    21300526: sonic_sprites_266
+    21300528: sonic_sprites_267
+    21300530: sonic_sprites_268
+    21300532: sonic_sprites_269
+    21300534: sonic_sprites_270
+    21300536: sonic_sprites_271
+    21300538: sonic_sprites_272
+    21300540: sonic_sprites_273
+    21300542: sonic_sprites_274
+    21300544: sonic_sprites_275
+    21300546: sonic_sprites_276
+    21300548: sonic_sprites_277
+    21300550: sonic_sprites_278
+    21300552: sonic_sprites_279
+    21300554: sonic_sprites_280
+    21300556: sonic_sprites_281
+    21300558: sonic_sprites_282
+    21300560: sonic_sprites_283
+    21300562: sonic_sprites_284
+    21300564: sonic_sprites_285
+    21300566: sonic_sprites_286
+    21300568: sonic_sprites_287
+    21300570: sonic_sprites_288
+    21300572: sonic_sprites_289
+    21300574: sonic_sprites_290
+    21300576: sonic_sprites_291
+    21300578: sonic_sprites_292
+    21300580: sonic_sprites_293
+    21300582: sonic_sprites_294
+    21300584: sonic_sprites_295
+    21300586: sonic_sprites_296
+    21300588: sonic_sprites_297
+    21300590: sonic_sprites_298
+    21300592: sonic_sprites_299
+    21300594: sonic_sprites_300
+    21300596: sonic_sprites_301
+    21300598: sonic_sprites_302
+    21300600: sonic_sprites_303
+    21300602: sonic_sprites_304
+    21300604: sonic_sprites_305
+    21300606: sonic_sprites_306
+    21300608: sonic_sprites_307
+    21300610: sonic_sprites_308
+    21300612: sonic_sprites_309
+    21300614: sonic_sprites_310
+    21300616: sonic_sprites_311
+    21300618: sonic_sprites_312
+    21300620: sonic_sprites_313
+    21300622: sonic_sprites_314
+    21300624: sonic_sprites_315
+    21300626: sonic_sprites_316
+    21300628: sonic_sprites_317
+    21300630: sonic_sprites_318
+    21300632: sonic_sprites_319
+    21300634: sonic_sprites_320
+    21300636: sonic_sprites_321
+    21300638: sonic_sprites_322
+    21300640: sonic_sprites_323
+    21300642: sonic_sprites_324
+    21300644: sonic_sprites_325
+    21300646: sonic_sprites_326
+    21300648: sonic_sprites_327
+    21300650: sonic_sprites_328
+    21300652: sonic_sprites_329
+    21300654: sonic_sprites_330
+    21300656: sonic_sprites_331
+    21300658: sonic_sprites_332
+    21300660: sonic_sprites_333
+    21300662: sonic_sprites_334
+    21300664: sonic_sprites_335
+    21300666: sonic_sprites_336
+    21300668: sonic_sprites_337
+    21300670: sonic_sprites_338
+    21300672: sonic_sprites_339
+    21300674: sonic_sprites_340
+    21300676: sonic_sprites_341
+    21300678: sonic_sprites_342
+    21300680: sonic_sprites_343
+    21300682: sonic_sprites_344
+    21300684: sonic_sprites_345
+    21300686: sonic_sprites_346
+    21300688: sonic_sprites_347
+    21300690: sonic_sprites_348
+    21300692: sonic_sprites_349
+    21300694: sonic_sprites_350
+    21300696: sonic_sprites_351
+    21300698: sonic_sprites_352
+    21300700: sonic_sprites_353
+    21300702: sonic_sprites_354
+    21300704: sonic_sprites_355
+    21300706: sonic_sprites_356
+    21300708: sonic_sprites_357
+    21300710: sonic_sprites_358
+    21300712: sonic_sprites_359
+    21300714: sonic_sprites_360
+    21300716: sonic_sprites_361
+    21300718: sonic_sprites_362
+    21300720: sonic_sprites_363
+    21300722: sonic_sprites_364
+    21300724: sonic_sprites_365
+    21300726: sonic_sprites_366
+    21300728: sonic_sprites_367
+    21300730: sonic_sprites_368
+    21300732: sonic_sprites_369
+    21300734: sonic_sprites_370
+    21300736: sonic_sprites_371
+    21300738: sonic_sprites_372
+    21300740: sonic_sprites_373
+    21300742: sonic_sprites_374
+    21300744: sonic_sprites_375
+    21300746: sonic_sprites_376
+    21300748: sonic_sprites_377
+    21300750: sonic_sprites_378
+    21300752: sonic_sprites_379
+    21300754: sonic_sprites_380
+    21300756: sonic_sprites_381
+    21300758: sonic_sprites_382
+    21300760: sonic_sprites_383
+    21300762: sonic_sprites_384
+    21300764: sonic_sprites_385
+    21300766: sonic_sprites_386
+    21300768: sonic_sprites_387
+    21300770: sonic_sprites_388
+    21300772: sonic_sprites_389
+    21300774: sonic_sprites_390
+    21300776: sonic_sprites_391
+    21300778: sonic_sprites_392
+    21300780: sonic_sprites_393
+    21300782: sonic_sprites_394
+    21300784: sonic_sprites_395
+    21300786: sonic_sprites_396
+    21300788: sonic_sprites_397
+    21300790: sonic_sprites_398
+    21300792: sonic_sprites_399
+    21300794: sonic_sprites_400
+    21300796: sonic_sprites_401
+    21300798: sonic_sprites_402
+    21300800: sonic_sprites_403
+    21300802: sonic_sprites_404
+    21300804: sonic_sprites_405
+    21300806: sonic_sprites_406
+    21300808: sonic_sprites_407
+    21300810: sonic_sprites_408
+    21300812: sonic_sprites_409
+    21300814: sonic_sprites_410
+    21300816: sonic_sprites_411
+    21300818: sonic_sprites_412
+    21300820: sonic_sprites_413
+    21300822: sonic_sprites_414
+    21300824: sonic_sprites_415
+    21300826: sonic_sprites_416
+    21300828: sonic_sprites_417
+    21300830: sonic_sprites_418
+    21300832: sonic_sprites_419
+    21300834: sonic_sprites_420
+    21300836: sonic_sprites_421
+    21300838: sonic_sprites_422
+    21300840: sonic_sprites_423
+    21300842: sonic_sprites_424
+    21300844: sonic_sprites_425
+    21300846: sonic_sprites_426
+    21300848: sonic_sprites_427
+    21300850: sonic_sprites_428
+    21300852: sonic_sprites_429
+    21300854: sonic_sprites_430
+    21300856: sonic_sprites_431
+    21300858: sonic_sprites_432
+    21300860: sonic_sprites_433
+    21300862: sonic_sprites_434
+    21300864: sonic_sprites_435
+    21300866: sonic_sprites_436
+    21300868: sonic_sprites_437
+    21300870: sonic_sprites_438
+    21300872: sonic_sprites_439
+    21300874: sonic_sprites_440
+    21300876: sonic_sprites_441
+    21300878: sonic_sprites_442
+    21300880: sonic_sprites_443
+    21300882: sonic_sprites_444
+    21300884: sonic_sprites_445
+    21300886: sonic_sprites_446
+    21300888: sonic_sprites_447
+    21300890: sonic_sprites_448
+    21300892: sonic_sprites_449
+    21300894: sonic_sprites_450
+    21300896: sonic_sprites_451
+    21300898: sonic_sprites_452
+    21300900: sonic_sprites_453
+    21300902: sonic_sprites_454
+    21300904: sonic_sprites_455
+    21300906: sonic_sprites_456
+    21300908: sonic_sprites_457
+    21300910: sonic_sprites_458
+    21300912: sonic_sprites_459
+    21300914: sonic_sprites_461
+    21300916: sonic_sprites_462
+    21300918: sonic_sprites_463
+    21300920: sonic_sprites_464
+    21300922: sonic_sprites_465
+    21300924: sonic_sprites_466
+    21300926: sonic_sprites_467
+    21300928: sonic_sprites_468
+    21300930: sonic_sprites_469
+    21300932: sonic_sprites_470
+    21300934: sonic_sprites_471
+    21300936: sonic_sprites_472
+    21300938: sonic_sprites_473
+    21300940: sonic_sprites_474
+    21300942: sonic_sprites_475
+    21300944: sonic_sprites_476
+    21300946: sonic_sprites_477
+    21300948: sonic_sprites_478
+    21300950: sonic_sprites_479
+    21300952: sonic_sprites_480
+    21300954: sonic_sprites_481
+    21300956: sonic_sprites_482
+    21300958: sonic_sprites_483
+    21300960: sonic_sprites_484
+    21300962: sonic_sprites_485
+    21300964: sonic_sprites_486
+    21300966: sonic_sprites_487
+    21300968: sonic_sprites_488
+    21300970: sonic_sprites_489
+    21300972: sonic_sprites_490
+    21300974: sonic_sprites_491
+    21300976: sonic_sprites_492
+    21300978: sonic_sprites_493
+    21300980: sonic_sprites_494
+    21300982: sonic_sprites_495
+    21300984: sonic_sprites_496
+    21300986: sonic_sprites_497
+    21300988: sonic_sprites_498
+    21300990: sonic_sprites_499
+    21300992: sonic_sprites_500
+    21300994: sonic_sprites_501
+    21300996: sonic_sprites_502
+    21300998: sonic_sprites_503
+    21301000: sonic_sprites_504
+    21301002: sonic_sprites_505
+    21301004: sonic_sprites_506
+    21301006: sonic_sprites_507
+    21301008: sonic_sprites_508
+    21301010: sonic_sprites_509
+    21301012: sonic_sprites_510
+    21301014: sonic_sprites_511
+    21301016: sonic_sprites_512
+    21301018: sonic_sprites_513
+    21301020: sonic_sprites_514
+    21301022: sonic_sprites_515
+    21301024: sonic_sprites_516
+    21301026: sonic_sprites_513
+    21301028: sonic_sprites_514
+    21301030: sonic_sprites_515
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sonic_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1511
+        width: 27
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1511
+        width: 27
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1511
+        width: 40
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1511
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1511
+        width: 27
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1511
+        width: 29
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1511
+        width: 39
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1511
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1511
+        width: 37
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_9
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1511
+        width: 40
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_10
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1511
+        width: 40
+        height: 44
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_11
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1511
+        width: 44
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_12
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1511
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_13
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1511
+        width: 42
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_14
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1511
+        width: 40
+        height: 47
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_15
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1511
+        width: 42
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_16
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1511
+        width: 34
+        height: 37
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_17
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1511
+        width: 33
+        height: 37
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_18
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1511
+        width: 34
+        height: 37
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_19
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1511
+        width: 33
+        height: 37
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_20
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1458
+        width: 36
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_21
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1458
+        width: 32
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_22
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1458
+        width: 36
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_23
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1458
+        width: 34
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_24
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1458
+        width: 31
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_25
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1458
+        width: 31
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_26
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1458
+        width: 33
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_27
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1458
+        width: 33
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_28
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1458
+        width: 33
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_29
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1458
+        width: 33
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_30
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1458
+        width: 32
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_31
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1458
+        width: 33
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_32
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1458
+        width: 38
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_33
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1459
+        width: 34
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_34
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1459
+        width: 34
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_35
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1458
+        width: 28
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_36
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1458
+        width: 27
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_37
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1458
+        width: 29
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_38
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1458
+        width: 31
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_39
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1458
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_40
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1458
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_41
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1458
+        width: 22
+        height: 50
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_42
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1409
+        width: 22
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_43
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1409
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_44
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1409
+        width: 30
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_45
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1409
+        width: 30
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_46
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1409
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_47
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1409
+        width: 26
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_48
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1409
+        width: 22
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_49
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1409
+        width: 27
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_50
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1409
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_51
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1409
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_52
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1409
+        width: 31
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_53
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1409
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_54
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1409
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_55
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1409
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_56
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1409
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_57
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1409
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_58
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1409
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_59
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1409
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_60
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1409
+        width: 31
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_61
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1409
+        width: 31
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_62
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1409
+        width: 31
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_63
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1409
+        width: 31
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_64
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1409
+        width: 31
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_65
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1409
+        width: 39
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_66
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1373
+        width: 53
+        height: 23
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_67
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1348
+        width: 33
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_68
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1348
+        width: 37
+        height: 37
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_69
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1348
+        width: 36
+        height: 37
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_70
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1348
+        width: 33
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_71
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1348
+        width: 36
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_72
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1348
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_73
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1348
+        width: 36
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_74
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1348
+        width: 37
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_75
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1348
+        width: 36
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_76
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1348
+        width: 33
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_77
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1348
+        width: 25
+        height: 34
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_78
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1348
+        width: 28
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_79
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1348
+        width: 33
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_80
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1348
+        width: 35
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_81
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1348
+        width: 159
+        height: 56
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_82
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1348
+        width: 53
+        height: 23
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_83
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1295
+        width: 25
+        height: 44
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_84
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1295
+        width: 23
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_85
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1295
+        width: 29
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_86
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1295
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_87
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1295
+        width: 30
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_88
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1295
+        width: 30
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_89
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1295
+        width: 24
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_90
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1295
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_91
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1295
+        width: 30
+        height: 25
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_92
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1295
+        width: 25
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_93
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1295
+        width: 30
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_94
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1295
+        width: 27
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_95
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1295
+        width: 27
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_96
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1295
+        width: 29
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_97
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1295
+        width: 27
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_98
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1295
+        width: 30
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_99
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1295
+        width: 33
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_100
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1295
+        width: 23
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_101
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1295
+        width: 28
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_102
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1295
+        width: 30
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_103
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1295
+        width: 25
+        height: 37
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_104
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1295
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_105
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1244
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_106
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1244
+        width: 31
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_107
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1244
+        width: 30
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_108
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1244
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_109
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1244
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_110
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1244
+        width: 33
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_111
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1244
+        width: 39
+        height: 34
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_112
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1244
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_113
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1244
+        width: 33
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_114
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1244
+        width: 34
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_115
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1244
+        width: 39
+        height: 29
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_116
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1244
+        width: 34
+        height: 29
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_117
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1244
+        width: 30
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_118
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1244
+        width: 27
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_119
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1244
+        width: 29
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_120
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1244
+        width: 30
+        height: 25
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_121
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1244
+        width: 33
+        height: 29
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_122
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1244
+        width: 37
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_123
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1244
+        width: 36
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_124
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1244
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_125
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1244
+        width: 33
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_126
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1171
+        width: 26
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_127
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1171
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_128
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1171
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_129
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1171
+        width: 25
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_130
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1171
+        width: 25
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_131
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1171
+        width: 27
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_132
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1171
+        width: 33
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_133
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1171
+        width: 40
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_134
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1171
+        width: 48
+        height: 21
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_135
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1171
+        width: 31
+        height: 21
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_136
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1171
+        width: 40
+        height: 21
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_137
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1171
+        width: 48
+        height: 21
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_138
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1171
+        width: 31
+        height: 23
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_139
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1171
+        width: 36
+        height: 23
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_140
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1171
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_141
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1172
+        width: 36
+        height: 47
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_142
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1171
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_143
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1171
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_144
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1171
+        width: 34
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_145
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1171
+        width: 27
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_146
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1171
+        width: 25
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_147
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1171
+        width: 34
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_148
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1118
+        width: 34
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_149
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1124
+        width: 37
+        height: 37
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_150
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1130
+        width: 29
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_151
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1118
+        width: 31
+        height: 25
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_152
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1118
+        width: 39
+        height: 25
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_153
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1118
+        width: 45
+        height: 25
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_154
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1118
+        width: 36
+        height: 25
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_155
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1118
+        width: 30
+        height: 25
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_156
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1118
+        width: 20
+        height: 37
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_157
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1118
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_158
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1118
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_159
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1118
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_160
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1118
+        width: 30
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_161
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1118
+        width: 24
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_162
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1118
+        width: 22
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_163
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1118
+        width: 25
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_164
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1118
+        width: 30
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_165
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1118
+        width: 25
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_166
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1118
+        width: 30
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_167
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1118
+        width: 48
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_168
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1118
+        width: 48
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_169
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1118
+        width: 50
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_170
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1062
+        width: 37
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_171
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1071
+        width: 50
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_172
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1070
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_173
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1070
+        width: 29
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_174
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1070
+        width: 31
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_175
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1071
+        width: 32
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_176
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1062
+        width: 30
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_177
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1062
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_178
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1060
+        width: 37
+        height: 47
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_179
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1060
+        width: 34
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_180
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1059
+        width: 31
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_181
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1062
+        width: 34
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_182
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1079
+        width: 9
+        height: 11
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_183
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1079
+        width: 10
+        height: 11
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_184
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1079
+        width: 8
+        height: 11
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_185
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1079
+        width: 8
+        height: 11
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_186
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1079
+        width: 8
+        height: 11
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_187
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1079
+        width: 8
+        height: 11
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_188
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1079
+        width: 10
+        height: 11
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_189
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1079
+        width: 10
+        height: 11
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_192
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1004
+        width: 78
+        height: 61
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_193
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 992
+        width: 39
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_194
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 992
+        width: 40
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_195
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 992
+        width: 33
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_196
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 992
+        width: 35
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_197
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 992
+        width: 33
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_198
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 992
+        width: 35
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_199
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 992
+        width: 47
+        height: 59
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_200
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 992
+        width: 28
+        height: 56
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_201
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 992
+        width: 45
+        height: 54
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_202
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 992
+        width: 36
+        height: 56
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_203
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 992
+        width: 35
+        height: 56
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_204
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 992
+        width: 56
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_205
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 928
+        width: 54
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_206
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 928
+        width: 53
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_207
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 928
+        width: 51
+        height: 55
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_208
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 928
+        width: 50
+        height: 55
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_209
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 928
+        width: 47
+        height: 53
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_210
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 922
+        width: 49
+        height: 50
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_211
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 922
+        width: 31
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_212
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 928
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_213
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 928
+        width: 30
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_214
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 928
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_215
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 928
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_216
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 928
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_217
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 928
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_218
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 958
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_219
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 948
+        width: 33
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_220
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 928
+        width: 48
+        height: 50
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_221
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 928
+        width: 34
+        height: 47
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_222
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 928
+        width: 34
+        height: 47
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_223
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 871
+        width: 34
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_224
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 871
+        width: 31
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_225
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 871
+        width: 41
+        height: 46
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_226
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 871
+        width: 41
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_227
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 871
+        width: 31
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_228
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 871
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_229
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 871
+        width: 37
+        height: 46
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_230
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 871
+        width: 38
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_231
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 871
+        width: 30
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_232
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 871
+        width: 49
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_233
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 871
+        width: 52
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_234
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 871
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_235
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 871
+        width: 50
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_236
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 871
+        width: 48
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_237
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 871
+        width: 48
+        height: 37
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_238
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 871
+        width: 53
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_239
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 871
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_240
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 813
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_241
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 813
+        width: 35
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_242
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 813
+        width: 33
+        height: 44
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_243
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 813
+        width: 33
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_244
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 813
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_245
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 813
+        width: 34
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_246
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 855
+        width: 9
+        height: 6
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_247
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 813
+        width: 37
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_248
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 813
+        width: 37
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_249
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 813
+        width: 33
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_250
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 813
+        width: 33
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_251
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 815
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_252
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 815
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_253
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 815
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_254
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 815
+        width: 30
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_255
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 814
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_257
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 814
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_258
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 714
+        width: 33
+        height: 37
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_259
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 714
+        width: 33
+        height: 37
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_260
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 714
+        width: 31
+        height: 37
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_261
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 714
+        width: 32
+        height: 37
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_262
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 714
+        width: 43
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_263
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 714
+        width: 39
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_264
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 714
+        width: 42
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_265
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 714
+        width: 38
+        height: 38
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_266
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 714
+        width: 46
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_267
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 714
+        width: 41
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_268
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 714
+        width: 41
+        height: 35
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_269
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 714
+        width: 39
+        height: 38
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_270
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 714
+        width: 39
+        height: 38
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_271
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 714
+        width: 38
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_272
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 714
+        width: 30
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_273
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 714
+        width: 28
+        height: 38
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_274
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 714
+        width: 41
+        height: 38
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_275
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 714
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_276
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 714
+        width: 26
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_277
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 714
+        width: 27
+        height: 38
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_278
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 661
+        width: 22
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_279
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 661
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_280
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 661
+        width: 26
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_281
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 661
+        width: 31
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_282
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 661
+        width: 31
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_283
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 661
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_284
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 661
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_285
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 661
+        width: 33
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_286
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 661
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_287
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 661
+        width: 37
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_288
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 661
+        width: 35
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_289
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 661
+        width: 33
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_290
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 661
+        width: 33
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_291
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 661
+        width: 33
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_292
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 661
+        width: 33
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_293
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 661
+        width: 33
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_294
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 661
+        width: 31
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_295
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 661
+        width: 31
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_296
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 661
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_297
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 661
+        width: 36
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_298
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 661
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_299
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 661
+        width: 38
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_300
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 611
+        width: 39
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_301
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 611
+        width: 31
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_302
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 611
+        width: 31
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_303
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 611
+        width: 31
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_304
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 611
+        width: 31
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_305
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 611
+        width: 31
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_306
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 611
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_307
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 611
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_308
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 611
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_309
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 611
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_310
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 611
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_311
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 611
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_312
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 611
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_313
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 611
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_314
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 611
+        width: 29
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_315
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 611
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_316
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 611
+        width: 27
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_317
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 611
+        width: 24
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_318
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 611
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_319
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 611
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_320
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 611
+        width: 29
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_321
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 611
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_322
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 611
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_323
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 611
+        width: 24
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_324
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 549
+        width: 161
+        height: 57
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_325
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 549
+        width: 36
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_326
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 549
+        width: 33
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_327
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 549
+        width: 27
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_328
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 549
+        width: 25
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_329
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 549
+        width: 33
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_330
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 549
+        width: 34
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_331
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 549
+        width: 37
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_332
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 549
+        width: 36
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_333
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 549
+        width: 39
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_334
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 549
+        width: 38
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_335
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 549
+        width: 32
+        height: 37
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_336
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 549
+        width: 36
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_337
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 549
+        width: 37
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_338
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 549
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_339
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 575
+        width: 53
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_340
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 549
+        width: 55
+        height: 25
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_341
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 496
+        width: 25
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_342
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 496
+        width: 25
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_343
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 496
+        width: 29
+        height: 34
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_344
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 496
+        width: 30
+        height: 34
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_345
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 496
+        width: 23
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_346
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 496
+        width: 31
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_347
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 496
+        width: 28
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_348
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 496
+        width: 27
+        height: 34
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_349
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 496
+        width: 29
+        height: 34
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_350
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 496
+        width: 27
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_351
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 496
+        width: 28
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_352
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 496
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_353
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 496
+        width: 25
+        height: 29
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_354
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 496
+        width: 28
+        height: 25
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_355
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 496
+        width: 25
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_356
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 496
+        width: 22
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_357
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 496
+        width: 30
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_358
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 496
+        width: 29
+        height: 34
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_359
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 496
+        width: 30
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_360
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 496
+        width: 29
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_361
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 496
+        width: 25
+        height: 34
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_362
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 496
+        width: 25
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_363
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 446
+        width: 33
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_364
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 446
+        width: 34
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_365
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 446
+        width: 38
+        height: 27
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_366
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 446
+        width: 36
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_367
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 446
+        width: 32
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_368
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 446
+        width: 30
+        height: 25
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_369
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 446
+        width: 28
+        height: 27
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_370
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 446
+        width: 26
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_371
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 446
+        width: 30
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_372
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 446
+        width: 36
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_373
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 446
+        width: 39
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_374
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 446
+        width: 33
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_375
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 446
+        width: 31
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_376
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 446
+        width: 37
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_377
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 446
+        width: 38
+        height: 34
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_378
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 446
+        width: 33
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_379
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 446
+        width: 33
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_380
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 446
+        width: 33
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_381
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 446
+        width: 31
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_382
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 446
+        width: 33
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_383
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 446
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_384
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 373
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_385
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 373
+        width: 24
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_386
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 373
+        width: 27
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_387
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 373
+        width: 34
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_388
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 373
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_389
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 373
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_390
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 375
+        width: 34
+        height: 46
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_391
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 373
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_392
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 373
+        width: 36
+        height: 22
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_393
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 373
+        width: 33
+        height: 22
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_394
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 373
+        width: 50
+        height: 22
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_395
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 373
+        width: 42
+        height: 22
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_396
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 373
+        width: 33
+        height: 22
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_397
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 373
+        width: 50
+        height: 22
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_398
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 373
+        width: 42
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_399
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 373
+        width: 33
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_400
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 373
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_401
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 373
+        width: 25
+        height: 47
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_402
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 373
+        width: 25
+        height: 47
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_403
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 373
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_404
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 373
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_405
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 373
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_406
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 320
+        width: 48
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_407
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 320
+        width: 49
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_408
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 320
+        width: 48
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_409
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 320
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_410
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 320
+        width: 25
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_411
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_412
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 320
+        width: 25
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_413
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_414
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 320
+        width: 25
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_415
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 320
+        width: 30
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_416
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 320
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_417
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 320
+        width: 27
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_418
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 320
+        width: 24
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_419
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 320
+        width: 20
+        height: 38
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_420
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 320
+        width: 30
+        height: 25
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_421
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 320
+        width: 34
+        height: 25
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_422
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 320
+        width: 44
+        height: 25
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_423
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 320
+        width: 37
+        height: 25
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_424
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 320
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_425
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 331
+        width: 29
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_426
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 325
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_427
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 320
+        width: 36
+        height: 44
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_428
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 281
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_429
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 281
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_430
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 281
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_431
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 281
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_432
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 281
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_433
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 281
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_434
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 281
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_435
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 281
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_436
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 264
+        width: 34
+        height: 44
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_437
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 261
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_438
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 263
+        width: 35
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_439
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 261
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_440
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 264
+        width: 28
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_441
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 264
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_442
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 272
+        width: 33
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_443
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 272
+        width: 30
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_444
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 272
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_445
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 272
+        width: 36
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_446
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 274
+        width: 48
+        height: 37
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_447
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 264
+        width: 37
+        height: 47
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_448
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 194
+        width: 56
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_449
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 194
+        width: 36
+        height: 56
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_450
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 194
+        width: 36
+        height: 56
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_451
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 194
+        width: 45
+        height: 55
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_452
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 194
+        width: 29
+        height: 56
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_453
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 194
+        width: 45
+        height: 59
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_454
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 194
+        width: 36
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_455
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 194
+        width: 34
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_456
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 194
+        width: 33
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_457
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 194
+        width: 35
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_458
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 194
+        width: 39
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_459
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 194
+        width: 39
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_461
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 131
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_462
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 131
+        width: 36
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_463
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 131
+        width: 50
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_464
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 151
+        width: 33
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_465
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 160
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_466
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 131
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_467
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 131
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_468
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 131
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_469
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 131
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_470
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 131
+        width: 28
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_471
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 131
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_472
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 124
+        width: 31
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_473
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 124
+        width: 47
+        height: 50
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_474
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 131
+        width: 46
+        height: 51
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_475
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 131
+        width: 50
+        height: 54
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_476
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 131
+        width: 51
+        height: 54
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_477
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 131
+        width: 53
+        height: 38
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_478
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 131
+        width: 56
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_479
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 73
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_480
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 73
+        width: 52
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_481
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 73
+        width: 49
+        height: 37
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_482
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 73
+        width: 48
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_483
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 73
+        width: 50
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_484
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 73
+        width: 48
+        height: 47
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_485
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 73
+        width: 50
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_486
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 73
+        width: 48
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_487
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 73
+        width: 30
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_488
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 73
+        width: 39
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_489
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 73
+        width: 39
+        height: 47
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_490
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 73
+        width: 30
+        height: 47
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_491
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 73
+        width: 30
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_492
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 73
+        width: 40
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_493
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 73
+        width: 41
+        height: 47
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_494
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 73
+        width: 33
+        height: 47
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_495
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 73
+        width: 34
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_496
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 58
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_497
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 14
+        width: 35
+        height: 50
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_498
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 14
+        width: 34
+        height: 50
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_499
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 14
+        width: 31
+        height: 50
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_500
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 14
+        width: 32
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_501
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 14
+        width: 36
+        height: 47
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_502
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 14
+        width: 36
+        height: 47
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_503
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 12
+        width: 13
+        height: 7
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_504
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 17
+        width: 6
+        height: 8
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_505
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 17
+        width: 6
+        height: 8
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_506
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 17
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_507
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 16
+        width: 31
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_508
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 17
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_509
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 17
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_510
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 17
+        width: 32
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_511
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 17
+        width: 27
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_512
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 14
+        width: 31
+        height: 44
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_513
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 14
+        width: 33
+        height: 44
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_514
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 14
+        width: 39
+        height: 37
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_515
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 14
+        width: 39
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_516
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 6
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_513
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 848
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_514
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 821
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_sprites_515
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 857
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
